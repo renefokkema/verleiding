@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Verleiding
 //
-//  Created by René Fokkema on 26-08-18.
+//  Created by René Fokkema on 29-08-18.
 //  Copyright © 2018 René Fokkema. All rights reserved.
 //
 
@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         
         button.addTarget(self, action: #selector(self.increaseCounter), for: .touchUpInside)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 100)
-        button.backgroundColor = .black
+        button.backgroundColor = .green
         button.frame = CGRect(x: 0, y: 0, width: view.bounds.width, height: view.bounds.height)
         view.addSubview(button)
     }
