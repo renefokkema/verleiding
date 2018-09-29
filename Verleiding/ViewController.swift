@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         
         nummertje = readFromStorage()
         
-        view.backgroundColor = .white
+        view.backgroundColor = .blue
         
         button.addTarget(self, action: #selector(self.increaseCounter), for: .touchUpInside)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 100)
